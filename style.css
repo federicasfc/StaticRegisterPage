@@ -1,0 +1,22 @@
+.top {
+  margin-bottom: 70px;
+}
+.upper-buttons {
+  float: right;
+  background-color: cadetblue;
+  color: cornsilk;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 15px;
+}
+.register {
+  display: block;
+  text-align: center;
+  box-shadow: 10px 10px 10px 10px lightgrey;
+}
+form {
+  width: 500px;
+  height: 700px;
+  display: inline-block;
+  box-shadow: 12px;
+}
