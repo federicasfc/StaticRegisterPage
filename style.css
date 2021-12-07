@@ -1,6 +1,6 @@
 body {
-  background-color: #76c8ff;
-  margin: 0px;
+  background-color: rgb(250, 196, 204);
+  margin: 0;
   font-family: sans-serif;
   display: flex;
   height: 100vh;
@@ -13,15 +13,14 @@ header {
   border-bottom: solid 1px dimgrey;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100vw;
-  z-index: 1;
 }
 
 header a {
   color: white;
-  background-color: #13a0ff;
+  background-color: rgb(161, 194, 255);
   border: solid 1px gray;
   border-radius: 3px;
   padding: 0.25rem 0.5rem;
@@ -32,18 +31,17 @@ header a {
 
 header a:hover,
 form button:hover {
-  background-color: #1084d1;
+  background-color: cornflowerblue;
   cursor: pointer;
 }
 
 .container {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: auto;
   padding: 1.5rem;
   background-color: white;
   border: solid 1px gray;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rbga(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container > h1 {
@@ -69,7 +67,7 @@ form button {
 }
 form button {
   color: white;
-  background-color: #13a0ff;
+  background-color: rgb(161, 194, 255);
 }
 
 footer {
