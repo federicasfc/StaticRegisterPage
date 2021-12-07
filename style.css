@@ -1,22 +1,88 @@
-.top {
-  margin-bottom: 70px;
+body {
+  background-color: #76c8ff;
+  margin: 0px;
+  font-family: sans-serif;
+  display: flex;
+  height: 100vh;
 }
-.upper-buttons {
-  float: right;
-  background-color: cadetblue;
-  color: cornsilk;
-  border: solid 1px black;
+
+header {
+  background-color: white;
+  text-align: right;
+  padding: 0.75rem 0;
+  border-bottom: solid 1px dimgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  z-index: 1;
+}
+
+header a {
+  color: white;
+  background-color: #13a0ff;
+  border: solid 1px gray;
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1.5rem; /*line-height adjusts the amount of space taken up for the font. */
+  text-decoration: none; /*removes the underline from the a tag */
+}
+
+header a:hover,
+form button:hover {
+  background-color: #1084d1;
+  cursor: pointer;
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1.5rem;
+  background-color: white;
+  border: solid 1px gray;
   border-radius: 5px;
-  margin: 15px;
+  box-shadow: 0 4px 8px 0 rbga(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.register {
-  display: block;
+
+.container > h1 {
+  margin: 0 0 0.5rem;
+}
+
+h1 {
   text-align: center;
-  box-shadow: 10px 10px 10px 10px lightgrey;
 }
-form {
-  width: 500px;
-  height: 700px;
-  display: inline-block;
-  box-shadow: 12px;
+
+form input,
+form button {
+  width: 100%;
+  min-width: 300px;
+  /* Our inputs and forms have different default sizes. By changing the box-sizing, we can fix this. */
+  box-sizing: border-box;
+  margin: 0.75rem 0;
+  padding: 0.25rem;
+  line-height: 1.5rem;
+  font-size: 1em;
+  border: solid 1px gray;
+  border-radius: 3px;
+}
+form button {
+  color: white;
+  background-color: #13a0ff;
+}
+
+footer {
+  margin-top: 0.75rem;
+  border-top: solid 1px lightgrey;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+footer img {
+  margin: 0 0.5rem;
+}
+
+footer img:hover {
+  cursor: pointer;
 }
