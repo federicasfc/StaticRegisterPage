@@ -8,31 +8,38 @@
     <title>Register Page</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="top">
-            <button class="upper-buttons">About Us</button>
-            <button class="upper-buttons">Log In</button>
-        </div>
-        <div class= "register">
+        <header>
+            <a href="#">About Us</a>
+            <a href="#">Log In</a>
+            <header>
+    <div>
             <form>
+                <h1>Sign Up</h1>
                 <fieldset>
-                    <h1>Sign Up</h1>
                     <p>
-                        <input type="email" name="email" placeholder="Email"/>
+                        <input type="email" name="email" placeholder="Email" required/>
                     </p>
                     <p>
-                        <input type="text" name="user" placeholder="Username"/>
+                        <input type="text" name="user" placeholder="Username" required/>
                     </p>
                     <p>
-                        <input type="password" name="password-1" placeholder="Password"/>
+                        <input type="password" name="password" placeholder="Password" required/>
                     </p>
                     <p>
-                        <input type="password" name="password-2" placeholder="Confirm Password"/>
+                        <input type="password" name="confirmPassword" placeholder="Confirm Password" required/>
                     </p>
-                    <button>Submit</button>
-                </fieldset>
+                    </fieldset>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
             </form>
+            <footer>
+                <img src="./assets/amazonLogo.png" alt="Amazon Icon" height= "32" width= "32"/>
+                <img src="./assets/facebookLogo.png" alt="Facebook Icon" height= "32" width= "32"/>
+                <img src="./assets/githubLogo.png" alt="GitHub Icon" height= "32" width= "32"/>
+                <img src="./assets/instagramLogo.png" alt="Slack Icon" height= "32" width= "32"/>
+                <img src="./assets/slackLogo.png" alt="Instagram Icon" height= "32" width= "32"/>
+            </footer>
         </div>
-    </div>
 </body>
 </html>
